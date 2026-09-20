@@ -15,18 +15,18 @@
 
 // 3.filter
 
- let numbers=[10,15,20,25,30]
+//  let numbers=[10,15,20,25,30]
 
-  let newNumbers = numbers.filter(function(number){
-    return number > 20;
-  })
-  console.log(newNumbers)
+//   let newNumbers = numbers.filter(function(number){
+//     return number > 20;
+//   })
+//   console.log(newNumbers)
 
 // 4: reduce
-// let numbers =[5,10,15,20]
-//   let total = numbers.reduce(function(sum,num){
-//     return sum+num},0)
-//     console.log(total)
+let numbers =[5,10,15,20]
+  let total = numbers.reduce(function(sum,num){
+    return sum+num},0)
+    console.log(total)
 
 
    
