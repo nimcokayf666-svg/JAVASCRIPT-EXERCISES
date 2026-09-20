@@ -4,7 +4,7 @@ let firstName ="nimco"
 let lastName = "Ali"
 let age = 21;
  
-let message = `my name  $(firstName) $(lastName) and $(age) years old.`
+let message = `my name  ${firstName} ${lastName} and ${age} years old.`
   console.log(message)
 
 // 2. Array Destructuring 
