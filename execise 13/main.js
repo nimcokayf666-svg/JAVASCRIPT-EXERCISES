@@ -5,9 +5,10 @@ console.log("hellow world")
 //  2: Select by Class
 const nimco =document.getElementsByClassName("text")
 
-  console.log("nimco")
+  console.log(nimco)
 
-//    4: Query Selector
+  //  3: Select by Tag
+
 const sihaam = document.getElementsByTagName("li")
 
   console.log(sihaam)
@@ -24,7 +25,7 @@ const firstParagraph = document.querySelector(".text");
 const allParagraphs = document.querySelectorAll(".text");
 
 // Log the selected elements
-console.log(heading)
+console.log(heading) 
 console.log(firstParagraph)
 console.log(allParagraphs)
 
