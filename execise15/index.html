@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Management App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <h1>Student Management App</h1>
+    <form id="student-form">
+<label for="Name">Student Name:</label>
+        <p>charcount: <span id="char-Count">0</span></p>
+        <input type="text" id="Name">
+        <label>Email:</label>
+       <input type="email" id="email-Input">
+        <label>Course</label>
+        <select id="Course">
+            <option value="">course-select</option>
+            <option value="Software Engineering">Software Engineering</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Information Technology">Information Technology</option>
+        </select>
+        <p id="result">Selected course: None</p>
+        <button type="submit">add studen</button>
+       
+
+
+    </form>
+     <ul id="student-list"></ul>
+<script src="main.js"></script>
+</body>
+
+</html>
